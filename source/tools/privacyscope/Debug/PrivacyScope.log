@@ -1,0 +1,80 @@
+﻿生成启动时间为 2016-9-21 9:09:16。
+     1>项目“C:\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\PrivacyScope.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\PrivacyScope.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\tools\libtracewrap\libtrace\protobuf\vsprojects /I"E:\bitblaze\qemu-1.5.0-rc1\include\disas" /I..\..\tools\VEX\pub /I..\..\include\pin /I..\..\include\pin\gen /I..\InstLib /I..\..\..\extras\components\include /I"..\..\..\extras\xed2-ia32\include" /Zi /nologo /W3 /WX- /Od /Oy- /D TARGET_IA32 /D HOST_IA32 /D TARGET_WINDOWS /D BIGARRAY_MULTIPLIER=1 /D USING_XED /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4530 /analyze- /errorReport:prompt gentrace.cpp  /D_SECURE_SCL=0 /EHs- /EHa- -Iddk-inc -I../libtracewrap/libtrace/src/common -I../libasmir/include -I../libasmir/src/traces -I../libtracewrap/libtrace/src/cpp -I../libtracewrap/libtrace/src/cpp/pb -I../libtracewrap/libtrace/protobuf/src -DUSING_PIN 
+         gentrace.cpp
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libasmir\src\traces\pin_trace.h(133): warning C4244: “return”: 从“std::streamoff”转换到“uint32_t”，可能丢失数据
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(94): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(104): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(108): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(116): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(156): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(171): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(174): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(181): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(215): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>C:\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(218): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>gentrace.cpp(685): warning C4800: “uint32_t”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>gentrace.cpp(1256): warning C4996: 'LEVEL_PINCLIENT::PIN_GetContextFPState': 被声明为已否决
+                 C:\7.pin-2.12-58423-msvc10-windows\source\include\pin\gen\deprecated_client.PH(101) : 参见“LEVEL_PINCLIENT::PIN_GetContextFPState”的声明
+     1>gentrace.cpp(2271): warning C4244: “参数”: 从“google::protobuf::uint64”转换到“uint32_t”，可能丢失数据
+     1>c:\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\gentrace.cpp(650): warning C4700: 使用了未初始化的局部变量“error”
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\PrivacyScope.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib /LIBPATH:..\..\..\ia32\lib /LIBPATH:"..\..\..\ia32\lib-ext" /LIBPATH:"..\..\..\extras\xed2-ia32\lib" pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib "ntdll-32.lib" Ws2_32.lib user32.lib ntdll.lib psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Debug\PrivacyScope.pdb" /OPT:NOREF /TLBID:1 /ENTRY:"Ptrace_DllMainCRTStartup@12" /BASE:"0x55000000" /DYNAMICBASE:NO /IMPLIB:"C:\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Debug\PrivacyScope.lib" /MACHINE:X86 /DLL Debug\exp.obj
+         Debug\exp_c.obj
+         Debug\stmt.obj
+         Debug\stmt_c.obj
+         Debug\pin_frame.obj
+         Debug\pin_taint.obj
+         Debug\pin_trace.obj
+         Debug\reg_mapping.obj
+         Debug\reg_mapping_pin.obj
+         Debug\winsyscalls.obj
+         Debug\descriptor.obj
+         Debug\descriptor.pb.obj
+         Debug\descriptor_database.obj
+         Debug\dynamic_message.obj
+         Debug\extension_set.obj
+         Debug\extension_set_heavy.obj
+         Debug\generated_message_reflection.obj
+         Debug\generated_message_util.obj
+         Debug\coded_stream.obj
+         Debug\gzip_stream.obj
+         Debug\printer.obj
+         Debug\tokenizer.obj
+         Debug\zero_copy_stream.obj
+         Debug\zero_copy_stream_impl.obj
+         Debug\zero_copy_stream_impl_lite.obj
+         Debug\message.obj
+         Debug\message_lite.obj
+         Debug\reflection_ops.obj
+         Debug\repeated_field.obj
+         Debug\service.obj
+         Debug\common.obj
+         Debug\once.obj
+         Debug\structurally_valid.obj
+         Debug\strutil.obj
+         Debug\substitute.obj
+         Debug\text_format.obj
+         Debug\unknown_field_set.obj
+         Debug\wire_format.obj
+         Debug\wire_format_lite.obj
+         Debug\frame.piqi.pb.obj
+         Debug\trace.container.obj
+         Debug\gentrace.obj
+         Debug\libdasm.obj
+         Debug\pin_misc.obj
+         Debug\pivot.obj
+         lib\ntdll.lib /export:main 
+            正在创建库 C:\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Debug\PrivacyScope.lib 和对象 C:\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Debug\PrivacyScope.exp
+         PrivacyScope.vcxproj -> C:\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Debug\PrivacyScope.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\PrivacyScope.unsuccessfulbuild”。
+         正在对“Debug\PrivacyScope.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\PrivacyScope.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.93

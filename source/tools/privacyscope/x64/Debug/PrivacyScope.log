@@ -1,0 +1,116 @@
+﻿生成启动时间为 2014/8/8 9:27:33。
+     1>项目“D:\pin-2.12-58423-msvc10-windows\source\tools\privacyscope\PrivacyScope.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\PrivacyScope.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I..\..\include\gen /I..\InstLib /I"..\..\..\extras\xed2-intel64\include" /Zi /nologo /W3 /WX- /Od /D TARGET_IA32E /D HOST_IA32E /D TARGET_WINDOWS /D BIGARRAY_MULTIPLIER=1 /D USING_XED /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /wd4530 /errorReport:prompt ..\libasmir\src\old_ir\exp.cpp ..\libasmir\src\old_ir\exp_c.cpp ..\libasmir\src\old_ir\stmt.cpp ..\libasmir\src\old_ir\stmt_c.cpp ..\libasmir\src\traces\pin_frame.cpp ..\libasmir\src\traces\pin_taint.cpp ..\libasmir\src\traces\pin_trace.cpp ..\libasmir\src\traces\reg_mapping.cpp ..\libasmir\src\traces\reg_mapping_pin.cpp ..\libasmir\src\traces\winsyscalls.cpp ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.pb.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\dynamic_message.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\extension_set.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\extension_set_heavy.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\generated_message_reflection.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\generated_message_util.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\coded_stream.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\gzip_stream.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\printer.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\tokenizer.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\message.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\message_lite.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\reflection_ops.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\repeated_field.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\service.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\common.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\once.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\structurally_valid.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\strutil.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\substitute.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\unknown_field_set.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\wire_format.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\wire_format_lite.cc ..\libtracewrap\libtrace\src\cpp\pb\frame.piqi.pb.cc ..\libtracewrap\libtrace\src\cpp\trace.container.cpp gentrace.cpp libdasm.cpp pin_misc.cpp pivot.cpp /EHs- /EHa- 
+         exp.cpp
+     1>..\libasmir\src\old_ir\exp.cpp(6): fatal error C1083: 无法打开包括文件:“exp.h”: No such file or directory
+         exp_c.cpp
+     1>..\libasmir\src\old_ir\exp_c.cpp(15): fatal error C1083: 无法打开包括文件:“exp.h”: No such file or directory
+         stmt.cpp
+     1>..\libasmir\src\old_ir\stmt.cpp(6): fatal error C1083: 无法打开包括文件:“stmt.h”: No such file or directory
+         stmt_c.cpp
+     1>..\libasmir\src\old_ir\stmt_c.cpp(6): fatal error C1083: 无法打开包括文件:“stmt.h”: No such file or directory
+         pin_frame.cpp
+     1>..\libasmir\src\traces\pin_frame.cpp(162): warning C4267: “+=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_frame.cpp(237): warning C4267: “+=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+         pin_taint.cpp
+     1>..\libasmir\src\traces\pin_taint.cpp(1): fatal error C1083: 无法打开包括文件:“pin.H”: No such file or directory
+         pin_trace.cpp
+     1>d:\pin-2.12-58423-msvc10-windows\source\tools\libasmir\src\traces\pin_trace.h(133): warning C4244: “return”: 从“std::streamoff”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_trace.cpp(75): warning C4541: “dynamic_cast”用在了带 /GR- 的多态类型“pintrace::Frame”上；可能导致不可预知的行为
+     1>..\libasmir\src\traces\pin_trace.cpp(92): warning C4244: “return”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_trace.cpp(99): warning C4244: “return”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_trace.cpp(202): warning C4244: “return”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+         reg_mapping.cpp
+     1>..\libasmir\src\traces\reg_mapping.cpp(4): fatal error C1083: 无法打开包括文件:“stmt.h”: No such file or directory
+         reg_mapping_pin.cpp
+         winsyscalls.cpp
+     1>..\libasmir\src\traces\winsyscalls.cpp(481): warning C4101: “bIsWindowsXPorLater”: 未引用的局部变量
+         descriptor.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/hash.h”: No such file or directory
+         descriptor.pb.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.pb.cc(4): fatal error C1083: 无法打开包括文件:“google/protobuf/descriptor.pb.h”: No such file or directory
+         descriptor_database.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/descriptor_database.h”: No such file or directory
+         dynamic_message.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\dynamic_message.cc(66): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/hash.h”: No such file or directory
+         extension_set.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\extension_set.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/hash.h”: No such file or directory
+         extension_set_heavy.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\extension_set_heavy.cc(38): fatal error C1083: 无法打开包括文件:“google/protobuf/extension_set.h”: No such file or directory
+         generated_message_reflection.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\generated_message_reflection.cc(36): fatal error C1083: 无法打开包括文件:“google/protobuf/generated_message_reflection.h”: No such file or directory
+         generated_message_util.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\generated_message_util.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/generated_message_util.h”: No such file or directory
+         coded_stream.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\coded_stream.cc(41): fatal error C1083: 无法打开包括文件:“google/protobuf/io/coded_stream_inl.h”: No such file or directory
+         gzip_stream.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\gzip_stream.cc(36): fatal error C1083: 无法打开包括文件:“config.h”: No such file or directory
+         Generating Code...
+         Compiling...
+         printer.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\printer.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/io/printer.h”: No such file or directory
+         tokenizer.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\tokenizer.cc(91): fatal error C1083: 无法打开包括文件:“google/protobuf/io/tokenizer.h”: No such file or directory
+         zero_copy_stream.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/io/zero_copy_stream.h”: No such file or directory
+         zero_copy_stream_impl.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(50): fatal error C1083: 无法打开包括文件:“google/protobuf/io/zero_copy_stream_impl.h”: No such file or directory
+         zero_copy_stream_impl_lite.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/io/zero_copy_stream_impl.h”: No such file or directory
+         message.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\message.cc(36): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/hash.h”: No such file or directory
+         message_lite.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\message_lite.cc(36): fatal error C1083: 无法打开包括文件:“google/protobuf/message_lite.h”: No such file or directory
+         reflection_ops.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\reflection_ops.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/reflection_ops.h”: No such file or directory
+         repeated_field.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\repeated_field.cc(37): fatal error C1083: 无法打开包括文件:“google/protobuf/repeated_field.h”: No such file or directory
+         service.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\service.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/service.h”: No such file or directory
+         common.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\common.cc(33): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/common.h”: No such file or directory
+         once.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\once.cc(42): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/once.h”: No such file or directory
+         structurally_valid.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\structurally_valid.cc(4): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/common.h”: No such file or directory
+         strutil.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\strutil.cc(33): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/strutil.h”: No such file or directory
+         substitute.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\substitute.cc(33): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/substitute.h”: No such file or directory
+         text_format.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc(42): fatal error C1083: 无法打开包括文件:“google/protobuf/text_format.h”: No such file or directory
+         unknown_field_set.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\unknown_field_set.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/common.h”: No such file or directory
+         wire_format.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\wire_format.cc(39): fatal error C1083: 无法打开包括文件:“google/protobuf/wire_format.h”: No such file or directory
+         wire_format_lite.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\wire_format_lite.cc(35): fatal error C1083: 无法打开包括文件:“google/protobuf/wire_format_lite_inl.h”: No such file or directory
+         frame.piqi.pb.cc
+     1>d:\pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\pb\frame.piqi.pb.h(9): fatal error C1083: 无法打开包括文件:“google/protobuf/stubs/common.h”: No such file or directory
+         Generating Code...
+         Compiling...
+         trace.container.cpp
+     1>d:\pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(7): fatal error C1083: 无法打开包括文件:“arch.hpp”: No such file or directory
+         gentrace.cpp
+     1>gentrace.cpp(1): fatal error C1083: 无法打开包括文件:“pin.H”: No such file or directory
+         libdasm.cpp
+     1>libdasm.cpp(2258): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>libdasm.cpp(2263): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>libdasm.cpp(2268): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>libdasm.cpp(2272): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>libdasm.cpp(2276): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>libdasm.cpp(2281): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>libdasm.cpp(2301): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         pin_misc.cpp
+     1>pin_misc.cpp(3): fatal error C1083: 无法打开包括文件:“pin.H”: No such file or directory
+         pivot.cpp
+     1>d:\pin-2.12-58423-msvc10-windows\source\tools\privacyscope\pivot.h(9): fatal error C1083: 无法打开包括文件:“pin.H”: No such file or directory
+         Generating Code...
+     1>已完成生成项目“D:\pin-2.12-58423-msvc10-windows\source\tools\privacyscope\PrivacyScope.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:15.27

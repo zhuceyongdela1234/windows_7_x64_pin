@@ -1,0 +1,4 @@
+指定trig_addr时才进行记录
+可以指定taint_offsets,指定哪些偏移可以记录。
+参数多个taint_offsets
+如果不指定，则全部偏移都进行追踪。

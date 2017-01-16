@@ -1,0 +1,329 @@
+﻿生成启动时间为 2015/1/19 10:07:22。
+     1>项目“E:\source\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\PrivacyScope.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\PrivacyScope.lastbuildstate”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : 对路径“E:\SOURCE\7.PIN-2.12-58423-MSVC10-WINDOWS\SOURCE\TOOLS\PRIVACYSCOPE\RELEASE\PRIVACYSCOPE.DLL”的访问被拒绝。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : 对路径“E:\SOURCE\7.PIN-2.12-58423-MSVC10-WINDOWS\SOURCE\TOOLS\PRIVACYSCOPE\RELEASE\PRIVACYSCOPE.PDB”的访问被拒绝。
+       InitializeBuildStatus:
+         正在创建“Release\PrivacyScope.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\tools\libtracewrap\libtrace\protobuf\vsprojects /I..\..\tools\libasmir\include\ /I..\..\tools\VEX\pub /I..\..\include\pin /I..\..\include\pin\gen /I..\InstLib /I..\..\..\extras\components\include /I"..\..\..\extras\xed2-ia32\include" /nologo /W3 /WX- /O2 /Oi /Oy- /D TARGET_IA32 /D HOST_IA32 /D TARGET_WINDOWS /D BIGARRAY_MULTIPLIER=1 /D USING_XED /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4530 /analyze- /errorReport:prompt ..\libasmir\src\old_ir\exp.cpp ..\libasmir\src\old_ir\exp_c.cpp ..\libasmir\src\old_ir\stmt.cpp ..\libasmir\src\old_ir\stmt_c.cpp ..\libasmir\src\traces\pin_frame.cpp ..\libasmir\src\traces\pin_taint.cpp ..\libasmir\src\traces\pin_trace.cpp ..\libasmir\src\traces\reg_mapping.cpp ..\libasmir\src\traces\reg_mapping_pin.cpp ..\libasmir\src\traces\winsyscalls.cpp ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.pb.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\dynamic_message.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\extension_set.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\extension_set_heavy.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\generated_message_reflection.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\generated_message_util.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\coded_stream.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\gzip_stream.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\printer.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\tokenizer.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\message.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\message_lite.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\reflection_ops.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\repeated_field.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\service.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\common.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\once.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\structurally_valid.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\strutil.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\substitute.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\unknown_field_set.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\wire_format.cc ..\libtracewrap\libtrace\protobuf\src\google\protobuf\wire_format_lite.cc ..\libtracewrap\libtrace\src\cpp\pb\frame.piqi.pb.cc ..\libtracewrap\libtrace\src\cpp\trace.container.cpp gentrace.cpp libdasm.cpp pin_misc.cpp pivot.cpp  /D_SECURE_SCL=0 /EHs- /EHa- -Iddk-inc -I../libtracewrap/libtrace/src/common -I../libasmir/include -I../libasmir/src/traces -I../libtracewrap/libtrace/src/cpp -I../libtracewrap/libtrace/src/cpp/pb -I../libtracewrap/libtrace/protobuf/src -DUSING_PIN 
+         exp.cpp
+         exp_c.cpp
+         stmt.cpp
+         stmt_c.cpp
+         pin_frame.cpp
+         pin_taint.cpp
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(94): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(104): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(108): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(116): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(156): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(171): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(174): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(181): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(215): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(218): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>ddk-inc\Wdm.h(7500): warning C4005: “ASSERT”: 宏重定义
+                 ..\..\include\pin\gen\message.PH(189) : 参见“ASSERT”的前一个定义
+     1>..\libasmir\src\traces\pin_taint.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libasmir\src\traces\pin_taint.cpp(250): warning C4244: “=”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(652): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(661): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(668): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(702): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(538): warning C4101: “filename”: 未引用的局部变量
+     1>..\libasmir\src\traces\pin_taint.cpp(854): warning C4244: “=”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(860): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(860): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(860): warning C4244: “初始化”: 从“uint64_t”转换到“int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(861): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(861): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(861): warning C4244: “初始化”: 从“uint64_t”转换到“int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(863): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(867): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(868): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(869): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(869): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(882): warning C4244: “初始化”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(883): warning C4244: “初始化”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(897): warning C4244: “参数”: 从“const uint64_t”转换到“const unsigned int”，可能丢失数据
+     1>..\libasmir\src\traces\pin_taint.cpp(934): warning C4018: “<”: 有符号/无符号不匹配
+         pin_trace.cpp
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libasmir\src\traces\pin_trace.h(133): warning C4244: “return”: 从“std::streamoff”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_trace.cpp(76): warning C4541: “dynamic_cast”用在了带 /GR- 的多态类型“pintrace::Frame”上；可能导致不可预知的行为
+     1>..\libasmir\src\traces\pin_trace.cpp(93): warning C4244: “return”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_trace.cpp(100): warning C4244: “return”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+     1>..\libasmir\src\traces\pin_trace.cpp(203): warning C4244: “return”: 从“const uint64_t”转换到“uint32_t”，可能丢失数据
+         reg_mapping.cpp
+         reg_mapping_pin.cpp
+         winsyscalls.cpp
+     1>..\libasmir\src\traces\winsyscalls.cpp(481): warning C4101: “bIsWindowsXPorLater”: 未引用的局部变量
+         descriptor.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(492): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(516): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(519): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(522): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(536): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(989): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(1498): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(1534): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(2607): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(2623): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(2728): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(2731): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(3032): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(4149): warning C4244: “参数”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(4159): warning C4244: “参数”: 从“google::protobuf::int64”转换到“google::protobuf::int32”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(4196): warning C4244: “参数”: 从“google::protobuf::uint64”转换到“google::protobuf::uint32”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(4218): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(4220): warning C4244: “=”: 从“google::protobuf::uint64”转换到“float”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(4222): warning C4244: “=”: 从“google::protobuf::int64”转换到“float”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(4237): warning C4244: “=”: 从“google::protobuf::uint64”转换到“double”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(4239): warning C4244: “=”: 从“google::protobuf::int64”转换到“double”，可能丢失数据
+     1>../libtracewrap/libtrace/protobuf/src\google/protobuf/stubs/common.h(339): warning C4541: “dynamic_cast”用在了带 /GR- 的多态类型“google::protobuf::Message”上；可能导致不可预知的行为
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor.cc(3856): 参见对正在编译的函数 模板 实例化“To google::protobuf::internal::down_cast<const google::protobuf::UninterpretedOption*,const google::protobuf::Message>(From *)”的引用
+                 with
+                 [
+                     To=const google::protobuf::UninterpretedOption *,
+                     From=const google::protobuf::Message
+                 ]
+         descriptor.pb.cc
+         descriptor_database.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(303): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(441): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(464): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(475): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(498): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(525): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(237): warning C4018: “<”: 有符号/无符号不匹配
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(236): 编译类 模板 成员函数“bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<Value>::ValidateSymbolName(const std::string &)”时
+                 with
+                 [
+                     Value=const google::protobuf::FileDescriptorProto *
+                 ]
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(87): 编译类 模板 成员函数“bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<Value>::AddSymbol(const std::string &,Value)”时
+                 with
+                 [
+                     Value=const google::protobuf::FileDescriptorProto *
+                 ]
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(55): 编译类 模板 成员函数“bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<Value>::AddFile(const google::protobuf::FileDescriptorProto &,Value)”时
+                 with
+                 [
+                     Value=const google::protobuf::FileDescriptorProto *
+                 ]
+                 ../libtracewrap/libtrace/protobuf/src\google/protobuf/descriptor_database.h(250): 参见对正在编译的类 模板 实例化“google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<Value>”的引用
+                 with
+                 [
+                     Value=const google::protobuf::FileDescriptorProto *
+                 ]
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(237): warning C4018: “<”: 有符号/无符号不匹配
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(236): 编译类 模板 成员函数“bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<Value>::ValidateSymbolName(const std::string &)”时
+                 with
+                 [
+                     Value=std::pair<const void *,int>
+                 ]
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(87): 编译类 模板 成员函数“bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<Value>::AddSymbol(const std::string &,Value)”时
+                 with
+                 [
+                     Value=std::pair<const void *,int>
+                 ]
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\descriptor_database.cc(55): 编译类 模板 成员函数“bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<Value>::AddFile(const google::protobuf::FileDescriptorProto &,Value)”时
+                 with
+                 [
+                     Value=std::pair<const void *,int>
+                 ]
+                 ../libtracewrap/libtrace/protobuf/src\google/protobuf/descriptor_database.h(299): 参见对正在编译的类 模板 实例化“google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<Value>”的引用
+                 with
+                 [
+                     Value=std::pair<const void *,int>
+                 ]
+         dynamic_message.cc
+         extension_set.cc
+         extension_set_heavy.cc
+     1>../libtracewrap/libtrace/protobuf/src\google/protobuf/stubs/common.h(339): warning C4541: “dynamic_cast”用在了带 /GR- 的多态类型“google::protobuf::MessageLite”上；可能导致不可预知的行为
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\extension_set_heavy.cc(289): 参见对正在编译的函数 模板 实例化“To google::protobuf::internal::down_cast<google::protobuf::Message*,google::protobuf::MessageLite>(From *)”的引用
+                 with
+                 [
+                     To=google::protobuf::Message *,
+                     From=google::protobuf::MessageLite
+                 ]
+         generated_message_reflection.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\generated_message_reflection.cc(1149): warning C4800: “const google::protobuf::uint32”: 将值强制为布尔值“true”或“false”(性能警告)
+         generated_message_util.cc
+         coded_stream.cc
+         gzip_stream.cc
+         正在生成代码...
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libasmir\src\old_ir\exp.cpp(85): warning C4715: “Exp::cast_value”: 不是所有的控件路径都返回值
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libasmir\src\old_ir\exp.cpp(99): warning C4715: “Exp::reg_to_bits”: 不是所有的控件路径都返回值
+         正在编译...
+         printer.cc
+         tokenizer.cc
+         zero_copy_stream.cc
+         zero_copy_stream_impl.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(311): warning C4244: “初始化”: 从“std::streamsize”转换到“int”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(398): warning C4244: “=”: 从“google::protobuf::int64”转换到“int”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(426): warning C4244: “参数”: 从“google::protobuf::int64”转换到“int”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(436): warning C4244: “+=”: 从“google::protobuf::int64”转换到“int”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(443): warning C4244: “参数”: 从“google::protobuf::int64”转换到“int”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc(454): warning C4244: “参数”: 从“google::protobuf::int64”转换到“int”，可能丢失数据
+         zero_copy_stream_impl_lite.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc(177): warning C4018: “<=”: 有符号/无符号不匹配
+         message.cc
+     1>../libtracewrap/libtrace/protobuf/src\google/protobuf/stubs/common.h(339): warning C4541: “dynamic_cast”用在了带 /GR- 的多态类型“google::protobuf::MessageLite”上；可能导致不可预知的行为
+                 ..\libtracewrap\libtrace\protobuf\src\google\protobuf\message.cc(70): 参见对正在编译的函数 模板 实例化“To google::protobuf::internal::down_cast<const google::protobuf::Message*,const google::protobuf::MessageLite>(From *)”的引用
+                 with
+                 [
+                     To=const google::protobuf::Message *,
+                     From=const google::protobuf::MessageLite
+                 ]
+         message_lite.cc
+         reflection_ops.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\reflection_ops.cc(62): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\reflection_ops.cc(128): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\reflection_ops.cc(151): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\reflection_ops.cc(181): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\reflection_ops.cc(236): warning C4018: “<”: 有符号/无符号不匹配
+         repeated_field.cc
+         service.cc
+         common.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\common.cc(360): warning C4018: “<”: 有符号/无符号不匹配
+         once.cc
+         structurally_valid.cc
+         strutil.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\strutil.cc(591): warning C4244: “=”: 从“google::protobuf::int64”转换到“char”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\strutil.cc(833): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::uint32”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\strutil.cc(913): warning C4244: “参数”: 从“__int64”转换到“google::protobuf::int32”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\strutil.cc(920): warning C4244: “参数”: 从“unsigned __int64”转换到“google::protobuf::uint32”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\stubs\strutil.cc(1056): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         substitute.cc
+         text_format.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc(126): warning C4355: “this”: 用于基成员初始值设定项列表
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc(423): warning C4800: “google::protobuf::uint64”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc(423): warning C4800: “google::protobuf::uint64”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc(455): warning C4244: “参数”: 从“google::protobuf::int64”转换到“int”，可能丢失数据
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc(718): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\text_format.cc(946): warning C4018: “<”: 有符号/无符号不匹配
+         unknown_field_set.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\unknown_field_set.cc(56): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\unknown_field_set.cc(72): warning C4018: “<”: 有符号/无符号不匹配
+         wire_format.cc
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\wire_format.cc(719): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\libtracewrap\libtrace\protobuf\src\google\protobuf\wire_format.cc(889): warning C4018: “<”: 有符号/无符号不匹配
+         wire_format_lite.cc
+         frame.piqi.pb.cc
+         正在生成代码...
+         正在编译...
+         trace.container.cpp
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(94): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(104): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(108): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(116): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(156): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(171): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(174): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(181): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(215): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\libtracewrap\libtrace\src\cpp\trace.container.hpp(218): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(31): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(62): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(91): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(99): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(161): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(241): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(255): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(255): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(267): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(282): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(285): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(288): warning C4244: “参数”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(298): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(320): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>..\libtracewrap\libtrace\src\cpp\trace.container.cpp(326): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+         gentrace.cpp
+     1>../libasmir/src/traces\pin_trace.h(133): warning C4244: “return”: 从“std::streamoff”转换到“uint32_t”，可能丢失数据
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(94): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(104): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(108): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(116): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(156): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(171): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(174): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(181): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(215): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(218): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>gentrace.cpp(659): warning C4800: “uint32_t”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>gentrace.cpp(1200): warning C4996: 'LEVEL_PINCLIENT::PIN_GetContextFPState': 被声明为已否决
+                 ..\..\include\pin\gen\deprecated_client.PH(101) : 参见“LEVEL_PINCLIENT::PIN_GetContextFPState”的声明
+     1>gentrace.cpp(2213): warning C4244: “参数”: 从“google::protobuf::uint64”转换到“uint32_t”，可能丢失数据
+         libdasm.cpp
+         pin_misc.cpp
+         pivot.cpp
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(94): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(104): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(108): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(116): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(156): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(171): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(174): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(181): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(215): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>../libtracewrap/libtrace/src/cpp\trace.container.hpp(218): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>pivot.cpp(147): warning C4244: “+=”: 从“const uint64_t”转换到“intptr_t”，可能丢失数据
+         正在生成代码...
+     1>e:\source\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\gentrace.cpp(624): warning C4700: 使用了未初始化的局部变量“error”
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\source\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Release\PrivacyScope.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib /LIBPATH:..\..\..\ia32\lib /LIBPATH:"..\..\..\ia32\lib-ext" /LIBPATH:"..\..\..\extras\xed2-ia32\lib" pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib "ntdll-32.lib" Ws2_32.lib user32.lib ntdll.lib psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"E:\source\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Release\PrivacyScope.pdb" /OPT:REF /TLBID:1 /ENTRY:"Ptrace_DllMainCRTStartup@12" /BASE:"0x55000000" /DYNAMICBASE:NO /IMPLIB:"E:\source\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Release\PrivacyScope.lib" /MACHINE:X86 /DLL Release\exp.obj
+         Release\exp_c.obj
+         Release\stmt.obj
+         Release\stmt_c.obj
+         Release\pin_frame.obj
+         Release\pin_taint.obj
+         Release\pin_trace.obj
+         Release\reg_mapping.obj
+         Release\reg_mapping_pin.obj
+         Release\winsyscalls.obj
+         Release\descriptor.obj
+         Release\descriptor.pb.obj
+         Release\descriptor_database.obj
+         Release\dynamic_message.obj
+         Release\extension_set.obj
+         Release\extension_set_heavy.obj
+         Release\generated_message_reflection.obj
+         Release\generated_message_util.obj
+         Release\coded_stream.obj
+         Release\gzip_stream.obj
+         Release\printer.obj
+         Release\tokenizer.obj
+         Release\zero_copy_stream.obj
+         Release\zero_copy_stream_impl.obj
+         Release\zero_copy_stream_impl_lite.obj
+         Release\message.obj
+         Release\message_lite.obj
+         Release\reflection_ops.obj
+         Release\repeated_field.obj
+         Release\service.obj
+         Release\common.obj
+         Release\once.obj
+         Release\structurally_valid.obj
+         Release\strutil.obj
+         Release\substitute.obj
+         Release\text_format.obj
+         Release\unknown_field_set.obj
+         Release\wire_format.obj
+         Release\wire_format_lite.obj
+         Release\frame.piqi.pb.obj
+         Release\trace.container.obj
+         Release\gentrace.obj
+         Release\libdasm.obj
+         Release\pin_misc.obj
+         Release\pivot.obj
+         lib\ntdll.lib /export:main 
+     1>LINK : fatal error LNK1104: 无法打开文件“E:\source\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Release\PrivacyScope.dll”
+     1>已完成生成项目“E:\source\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\PrivacyScope.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:38.40
