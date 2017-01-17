@@ -60,3 +60,5 @@ source/tools/privacyscope/Debug/zero_copy_stream_impl_lite.obj
 source/tools/privacyscope/PrivacyScope.opensdf
 source/tools/privacyscope/PrivacyScope.sdf
 source/tools/privacyscope/PrivacyScope.suo
+source/tools/privacyscope/Release/*
+source/tools/privacyscope/x64/*
