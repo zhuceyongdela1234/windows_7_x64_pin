@@ -1,2 +1,0 @@
-cd /d E:\source\7.pin-2.12-58423-msvc10-windows
-pin -t ¡°E:\source\7.pin-2.12-58423-msvc10-windows\source\tools\privacyscope\Release\PrivacyScope.dll" -o 1-1 -log-limit 10000 -ins-limit 10000000 -taint-files "C:\test\1-1-sample.wpt"  -taint-offsets 0x7e0a -taint-offsets 5 -- D:\Users\wukong\AppData\Local\Kingsoft\WPS Office\9.1.0.4885\office6\wps.exe "C:\test\1-1-sample.wpt"
