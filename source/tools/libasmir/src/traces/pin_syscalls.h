@@ -18,7 +18,7 @@
 
 // Windows system calls @ http://j00ru.vexillium.org/ntapi_64/
 // These numbers are for Windows 7
-/*
+
 enum {
   __NR_closewin = 0x32,
   __NR_createfilewin = 0x42,
@@ -26,16 +26,16 @@ enum {
   __NR_mapviewofsectionwin = 0xa8,
   __NR_readfilewin = 0x111,
   __NR_setinfofilewin = 0x149,
-};*/
-//windows 10 
-enum {
+};
+//windows 7 
+/*enum {
   __NR_closewin = 0x0f,
   __NR_createfilewin = 0x55,
   __NR_createsectionwin = 0x4a,
   __NR_mapviewofsectionwin = 0x28,
-  __NR_readfilewin = 0x6,
+  __NR_readfilewin = 0x111,
   __NR_setinfofilewin = 0x27,
-};
+};*/
 
 
 

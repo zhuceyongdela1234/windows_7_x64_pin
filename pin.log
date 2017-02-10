@@ -1,3 +1,2 @@
 Pin 2.12 kit 58423
-E:  Cannot execute file. System error: No such process. File name: "C:\test\tweakpng\tweakpng.exe"
-E: Pin is exiting due to fatal error
+E:  Failed to load tool DLL. System error: Unknown error. File name: C:\Users\long\windows_7_x64_pin\source\tools\privacyscope\Debug\PrivacyScope.dll
