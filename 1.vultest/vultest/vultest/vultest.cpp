@@ -72,7 +72,7 @@ else
 
 	
 	//fclose(fp); //╧ь╠унд╪Ч
-	FindClose(h);
+	//FindClose(h);
 }
 return 0;
 }
