@@ -869,9 +869,9 @@ FrameOption_t TaintTracker::taintPostSC(const uint32_t bytes,
 							fb = introMemTaint(addr+ lower - fds[args[0]].offset, upper - lower,
 								fds[args[0]].name.c_str(), lower);
 							  ofstream OutFile;
-							  OutFile.open("c:\\test\\log.txt",ios::out | ios::app);
+							  OutFile.open("c:\\Test\\log.txt",ios::out | ios::app);
 							  OutFile.setf(ios::showbase);
-							  OutFile << "introduce taint "  <<"fds[args[0]].offset="<<fds[args[0]].offset<<" low="<<lower<< endl;
+							  OutFile << "introduce taint "  <<"fds[args[0]].offset="<<fds[args[0]].offset<<" low="<<lower<<" length=" <<length<< endl;
 							  OutFile.close();
 						}
 					}
